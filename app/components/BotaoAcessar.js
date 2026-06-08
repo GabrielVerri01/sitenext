@@ -12,7 +12,7 @@ export default function BotaoAcessar({email}){
             return
         }
 
-        router.push('/produtos')
+        router.push('/vendas')
     }
 
     return(
