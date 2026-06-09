@@ -21,7 +21,7 @@ export default function ProdutoPage(){
                 </a>
             </div>
             <div className="border border-gray-400 shadow mt-2 px-1 shadow-xl transition-transform duration-250 ease-in-out hover:scale-104 rounded-[5px] cabecalho">
-                <a href="">
+                <a href="/produto3">
                     <Image src="/produto3.jpg" alt="Produto 3" width={300} height={200} className="w-full rounded-[5px]" />
                     <h2>Produto 3</h2>
                     <strong>R$ XXX</strong>
@@ -29,7 +29,7 @@ export default function ProdutoPage(){
                 </a>
             </div>
             <div className="border border-gray-400 shadow mt-2 px-1 shadow-xl transition-transform duration-250 ease-in-out hover:scale-104 rounded-[5px] cabecalho">
-                <a href="">
+                <a href="/produto4">
                     <Image src="/produto4.jpg" alt="Produto 4" width={300} height={200} className="w-full rounded-[5px]" />
                     <h2>Produto 4</h2>
                     <strong>R$ XXX</strong>
@@ -37,7 +37,7 @@ export default function ProdutoPage(){
                 </a>
             </div>
             <div className="border border-gray-400 shadow mt-2 px-1 shadow-xl transition-transform duration-250 ease-in-out hover:scale-104 rounded-[5px] cabecalho">
-                <a href="">
+                <a href="/produto5">
                     <Image src="/produto5.jpg" alt="Produto 5" width={300} height={200} className="w-full rounded-[5px]" />
                     <h2>Produto 5</h2>
                     <strong>R$ XXX</strong>
@@ -45,7 +45,7 @@ export default function ProdutoPage(){
                 </a>
             </div>
             <div className="border border-gray-400 shadow mt-2 px-1 shadow-xl transition-transform duration-250 ease-in-out hover:scale-104 rounded-[5px] cabecalho">
-                <a href="">
+                <a href="/produto6 ">
                     <Image src="/produto6.jpg" alt="Produto 6" width={300} height={200} className="w-full rounded-[5px]" />
                     <h2>Produto 6</h2>
                     <strong>R$ XXX</strong>

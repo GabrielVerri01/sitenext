@@ -1,4 +1,7 @@
+'use client'
+
 import Image from "next/image";
+import BotaoCarrinho from "../components/BotaoCarrinho";
 
 export default function Produto1Page(){
     return(
@@ -7,7 +10,7 @@ export default function Produto1Page(){
             <h1>PRODUTO TAL</h1>
             <strong> R$ XXX </strong>
             <p>Esse produto tem x qualidades, y condições e z características.</p>
-            <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Adicionar ao Carrinho</button>
+            <BotaoCarrinho />
         </section>
 
     )
