@@ -1,10 +1,14 @@
 
+import { useRouter } from 'next/navigation'
 
 export default function BotaoCarrinho(){
+    const router = useRouter()
 
+    function adicionarAoCarrinho(e){
+        e.preventDefault()
 
-    function adicionarAoCarrinho(){
         alert("Produto adicionado ao carrinho!")
+        router.push('/carrinho');
     }
 
 

@@ -11,7 +11,7 @@ export default function contatoPage({}){
         <section>
             
             <div className="flex flex-col items-center justify-center min-h-[200px] m-4">
-                <h1>Bem-vindo à pagina de Contato</h1>
+                <h1 className="text-3xl">Bem-vindo à pagina de Contato</h1>
                 <p> Fale com nós por aqui</p>
                 <label className="flex flex-col items-center justify-center">
                     Digite seu nome:
