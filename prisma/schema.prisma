@@ -9,9 +9,11 @@ datasource db {
 
 model Usuario {
   id        Int      @id @default(autoincrement())
-  usuario   String
+  usuario   String  
   email     String   @unique
   senha     String
   cargo     String
+  resetToken       String?   @unique 
+  resetTokenExpire DateTime? 
   createdAt DateTime @default(now())
 }

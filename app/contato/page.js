@@ -26,6 +26,9 @@ export default function contatoPage({}){
                     <p className="mt-4 text-green-600 font-medium">{mensagemSucesso}</p>
                 )}
             </div>
+            <div>
+                <p>Caso não seja reclamação e queira tirar dúvidas, pode nos mandar mensagem nesse contato:<a href="">(XX)XXXX-XXXX</a></p>
+            </div>
         </section>
     )
 }

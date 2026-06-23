@@ -1,4 +1,4 @@
-import {FaFacebook, FaGoogle, FaLinkedin, FaInstagram} from 'react-icons/fa'
+import {FaFacebook, FaGoogle, FaLinkedin, FaInstagram, FaWhatsapp} from 'react-icons/fa'
 import Link from 'next/link'
 
 
@@ -11,6 +11,7 @@ export default function FooterPage(){
                 <Link href='https://www.google.com/?hl=pt_BR&zx=1782139167902'><FaGoogle size={24}/></Link>
                 <Link href='https://br.linkedin.com/'><FaLinkedin size={24} /></Link>
                 <Link href='https://www.instagram.com/'><FaInstagram size={24} /></Link>
+                <Link href='https://web.whatsapp.com/'><FaWhatsapp size={24} /></Link>
             </div>
             
         </div>
