@@ -17,3 +17,26 @@ model Usuario {
   resetTokenExpire DateTime? 
   createdAt DateTime @default(now())
 }
+
+model Produto {
+  id           Int      @id @default(autoincrement())
+  nome         String
+  descricao    String
+  preco        Float
+  imagem       String
+  ativo        Boolean  @default(true)
+
+  variacoes    Variacao[]
+
+  createdAt    DateTime @default(now())
+}
+
+model Variacao {
+  id          Int     @id @default(autoincrement())
+  tamanho     String  
+  preco       Float
+  estoque     Int 
+
+  produtoId   Int 
+  produto     Produto @relation(fields: [produtoId], references: [id])
+}
