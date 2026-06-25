@@ -23,7 +23,15 @@ export default function LoginPage(){
         })
 
         const dados = await resposta.json()
-        
+
+        if (!resposta.ok){
+            alert(dados.error);
+            return;
+        }
+
+        if (resposta.ok){
+            localStorage.setItem("usuario", JSON.stringify(dados));
+        }
         alert('LOGADO!')
     }
 

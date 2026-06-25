@@ -32,6 +32,9 @@ export default async function ProdutosPage({params}) {
         where: {
             id: Number(id),
         },
+        // include: {           PARA VARIACOES DE TAMANHOS
+        //     variacoes: true,
+        // },
     });
 
     if (!produto) {
