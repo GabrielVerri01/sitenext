@@ -5,13 +5,6 @@ import { prisma } from '@/lib/prisma'
 export async function POST(request) {
     const { email, senha } = await request.json()
 
-    if (!email || !senha) {
-        return NextResponse.json(
-            { error: 'Preencha email e senha.' },
-            { status: 400 }
-        )
-    }
-
     const usuario = await prisma.usuario.findUnique({
         where: { email }
     })
@@ -38,4 +31,5 @@ export async function POST(request) {
         email: usuario.email,
         cargo: usuario.cargo
     })
+
 }

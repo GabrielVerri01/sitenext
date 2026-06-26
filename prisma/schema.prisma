@@ -23,7 +23,7 @@ model Produto {
   nome         String
   descricao    String
   preco        Float
-  imagem       String
+  imagem       String?
   ativo        Boolean  @default(true)
 
   variacoes    Variacao[]
