@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import FooterPage from './components/Footer';
 import './globals.css'
+import BotaoChat from './components/BotaoChat';
 
 export const metadata = {
   title: 'Meu Site em Next.js',
@@ -18,8 +19,11 @@ export default function RootLayout({ children }) {
           {children}
         </main>
 
+      {/* BOTAO DE CHAT  */}
+      <BotaoChat />
         <FooterPage />
       </body>
     </html>
   );
 }
+      

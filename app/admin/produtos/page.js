@@ -22,7 +22,7 @@ export default async function editarProdutos(){
                 </button>
             </div>
 
-            <div className="space-y-3">
+            <div className="space-y-3 font-semibold text-gray-700 mt-4 mb-4">
                 {produtos.map((produto) => (
                     <div key={produto.id} className="flex justify-between border p-3">
                         <span>{produto.nome}</span>

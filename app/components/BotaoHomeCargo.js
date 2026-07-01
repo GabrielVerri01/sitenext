@@ -29,6 +29,13 @@ export default function BotaoHomeCargoPage() {
           </button>
         </Link>
       )}
+      {cargo === "admin" && (
+        <Link href={rota[cargo] || "/"}>
+          <button className="border px-2 py-1 rounded">
+            Voltar
+          </button>
+        </Link>
+      )}
     </div>
   );
 }
